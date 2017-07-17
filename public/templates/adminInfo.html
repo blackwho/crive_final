@@ -1,0 +1,27 @@
+<header style="justify-content: space-between; align-items: center; width: 94vw; padding-right: 3vw; padding-left: 3vw;"><h1>iProfile</h1><p><b>Your Public URL is: </b><a class="public-url" href="/public/{{uid}}">http://iprofile.herokuapp.com/public/{{uid}}</a></p><h2 ng-click="logout()" class="logout-btn">LOGOUT</h2></header>
+<form class="info-form" ng-submit="adminInfo()" ng-init="fetch()">
+	<div class="info-form-dp">
+		<img ngf-thumbnail="file || profilePic" style="width: 300px; border-radius: 50px;">
+		<br>
+		<br>
+		<div class="button" ngf-select ng-model="file" name="file" ngf-pattern="'image/*'"
+	    ngf-accept="'image/*'" style="cursor: pointer; padding: 10px; border: 1px solid slateblue;">Upload Profile Pic</div>
+    </div>
+    <div class="info-form-details">
+		<input type="text" name="username" placeholder="NAME" ng-model="user">
+		<br>
+		<input type="email" name="email" placeholder="EMAIL" ng-model="userEmail">
+		<br>
+		<textarea name="paragraph" rows="10" cols="20" ng-model="userDetails" placeholder="ABOUT ME"></textarea>
+		<br>
+		<input type="text" name="cityName" placeholder="CITY" ng-model="userCity">
+		<br>
+		<input type="text" name="instagramUsername" placeholder="INSTAGRAM USERNAME" ng-model="userInstagram">
+		<input id="submit-btn" type="submit" value="SAVE PROFILE">
+	</div>
+</form>
+<br>
+<br>
+<br>
+
+

@@ -1,0 +1,16 @@
+<div class="main-content">
+<h1 class="main-masthead">iProfile</h1>
+<p class="main-caption">Easy Public Profile Creation</p>
+
+<form class="login-form" ng-submit="register()">
+	<h3>Create your Account Now.</h3>
+	<input type="email" name="email" placeholder="EMAIL" ng-model="email">
+	<input type="password" name="password" placeholder="PASSWORD" ng-model="pass">
+	<br>
+	<input id="submit-btn" type="submit" value="REGISTER">
+</form>
+
+<a href="/auth/facebook/" class="btn btn-primary fb-btn" target="_self"><span class="fa fa-facebook"></span>  LOGIN WITH FACEBOOK</a>
+
+<p>Already a Member?<b ui-sref="login" class="register-btn">Login</b></p>
+</div>

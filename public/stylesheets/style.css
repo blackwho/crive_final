@@ -1,0 +1,167 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header{
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	background-color: slateblue;
+	color: white;
+}
+
+header h1{
+	font-weight: 100;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.main-masthead {
+	font-size: 52px;
+	color: slateblue;
+	margin-bottom: 0;
+}
+.main-caption {
+	margin-top: 5px;
+}
+
+.login-form{
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.login-form input{
+	padding: 10px;
+}
+
+.contact-form input,textarea{
+	padding: 10px;
+	margin: 10px;
+	width: 90%;
+}
+
+.login-form #submit-btn{
+	margin-top: 10px;
+	width: 25%;
+	background: transparent;
+	border: 1px solid slateblue;
+	cursor: pointer;
+}
+.login-form #submit-btn:hover{
+	background-color: slateblue;
+	color: white;
+}
+
+.fb-btn{
+	margin-top: 30px;
+	padding: 10px;
+	width: 25%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: slateblue;
+}
+
+.register-btn{
+	cursor: pointer;
+}
+
+.register-btn:hover{
+	color: slateblue;
+}
+
+.logout-btn{
+	cursor: pointer;
+	padding: 20px;
+	margin: 0;
+}
+
+.logout-btn:hover{
+	background-color: white;
+	color: slateblue;
+}
+
+.public-content{
+	width: 94vw;
+	
+	display: flex;
+}
+
+.public-dp{
+	width: 45%;
+	padding: 3vw;
+}
+.public-dp img{
+	width: 90%;
+}
+.public-details{
+	width: 55%;
+	padding: 3vw;
+}
+
+.public-contact{
+	padding: 3vw;
+	height: 77vh;
+	border-left: 1px solid gainsboro;
+}
+
+.public-url{
+	text-decoration: none;
+	color: white;
+}
+
+.info-form {
+	margin: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.info-form-dp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.info-form-details{
+	display: flex;
+	flex-direction: column;
+	width: 70%
+}
+
+.info-form input{
+	width: 40%;
+	padding:10px;	
+}
+
+.info-form textarea{
+	width: 40%;
+	padding:10px;	
+}
+
+.info-form #submit-btn{
+	margin-top: 20px;
+	padding: 10px;
+	width: 20%;
+	background: transparent;
+	border: 1px solid slateblue;
+	cursor: pointer;
+}
+
+.info-form #submit-btn:hover{
+	background-color: slateblue;
+	color: white;
+}

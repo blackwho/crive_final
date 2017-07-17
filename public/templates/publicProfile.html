@@ -1,0 +1,15 @@
+<form ng-submit="publicInfo()">
+	<input type="text" name="userId" placeholder="Enter Id" ng-model="id">
+
+		<h1>name: {{publicUserName}}</h1>
+		<h2>details: {{publicDetails}}</h2>
+		<h2>city: {{publicCity}}</h2>
+		<h2>Image:</h2>
+		<img src="{{publicProfilePic}}" style="width: 100px; border-radius: 50px;">
+		<h2>instagram: {{publicInstagram}}</h2>
+
+
+	
+	<input type="submit" value="Get Profile!!">
+</form>
+

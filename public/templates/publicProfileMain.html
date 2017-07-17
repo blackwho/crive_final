@@ -1,0 +1,20 @@
+<header><h1>iProfile</h1></header>
+<div ng-init="publicInfo()" class="public-content">
+	<div class="public-dp"><img src="{{publicProfilePic}}"></div>
+	<div class="public-details">
+		<h1 style="margin-bottom: 0">{{publicUserName}}</h1>
+		<h3 style="margin-top: 0">{{publicCity}}</h3>
+		<p><b>BIO | </b>{{publicDetails}}</p>
+		<p><b>INSTAGRAM | </b> {{publicInstagram}}</p>
+	</div>
+	<div class="public-contact">
+	<h2>CONTACT ME</h2>
+		<form class="login-form contact-form" ng-submit="contact()">
+			<input type="text" name="name" placeholder="NAME" ng-model="name">
+			<input type="email" name="email" placeholder="EMAIL" ng-model="email">
+			<textarea name="message" rows="10" cols="20" ng-model="msg" placeholder="MESSAGE"></textarea>
+			<br>
+			<input id="submit-btn" type="submit" value="POST">
+		</form>
+	</div>
+</div>
