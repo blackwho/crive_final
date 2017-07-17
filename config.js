@@ -14,7 +14,7 @@ function Config()
 		service: 'Gmail',
     	auth: {
         	user: 'royvishal442@gmail.com',
-        	pass: 'martial@95'
+        	pass: 'xxxxxxxx'
     	}
 	};
 }
